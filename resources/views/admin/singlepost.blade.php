@@ -26,19 +26,7 @@
                     <div class="img">
                         <img src="assets/img/blog/1.jpeg" alt="">
                     </div>
-                    <div class="info">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="cont">
-                                    <small class="date small mb-20"> <span class="text-uppercase border-end brd-gray pe-3 me-3"> News </span> <i class="far fa-clock me-1"></i> Posted on 3 Days ago </small>
-                                    <h2 class="title">
-                                        Solutions For Big Data Issue, Expert Perspective
-                                    </h2>
-                                    <p class="fs-12px mt-10 text-light text-info">If there’s one way that wireless technology has changed the way we work, it’s that will everyone is now connected [...]</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
             <div class="row gx-4 gx-lg-5">
@@ -74,10 +62,11 @@
                         <h4 class="fw-bold color-000 lh-4 mb-30">To mark the first UK show of artist Henri Barande, developer <a href="#" class="color-blue5">Moussa</a> and German studio Schultzschultz  have created The Lodge Wooden at Berlin City</h4>
                         <div class="text mb-10 color-666">
                             Today most people get on average 4 to 6 hours of exercise every day, and make sure that everything they put in their mouths is not filled with sugars or preservatives, but they pay no attention to their mental health, no vacations, not even the occasional long weekend. All of this for hopes of one day getting that big promotion.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis enim vero deleniti! Eius perspiciatis cupiditate laboriosam quidem nam accusantium iusto perferendis suscipit excepturi, est aut minus voluptatum non eum earum!
                         </div>
-                        <div class="text color-666 mb-20">
+                        {{-- <div class="text color-666 mb-20">
                             Coventry is a city with a thousand years of history that has plenty to offer the visiting tourist. <br> Located in the heart of Warwickshire.
-                        </div>
+                        </div> --}}
                         <div class="info-imgs">
                             <div class="row">
                                 <div class="col-lg-6">
@@ -96,215 +85,19 @@
                         </div>
                         <div class="text mt-50 color-666">
                             The short answer is yes. According to Kross, when you think of yourself as another person, it allows you lorem ispum lorem suo give yourself more. Notre dame at sume lorem objective, helpful feedback.
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum asperiores sint perspiciatis amet harum obcaecati, eveniet recusandae reiciendis atque sequi temporibus optio officia repudiandae debitis consequuntur non iste, quia dignissimos!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus veniam, id voluptatibus consectetur itaque eum asperiores? Ab itaque eius earum, corporis ratione non aut dolore totam laudantium suscipit, libero iusto.
                         </div>
-                        <div class="twitter-info mt-60">
-                            <div class="twitter-card">
-                                <div class="twitter-header d-flex align-items-center justify-content-between">
-                                    <div class="twitter-user d-flex align-items-center">
-                                        <div class="icon-50 rounded-circle img-cover overflow-hidden me-3 flex-shrink-0">
-                                            <img src="assets/img/team/3.jpeg" alt="">
-                                        </div>
-                                        <div class="inf">
-                                            <h6 class="fw-bold">Russel B.</h6>
-                                            <small class="color-999"> @russelb  - 15 Dec, 2022 </small>
-                                        </div>
-                                    </div>
-                                    <div class="twitter-icon">
-                                        <i class="fab fa-twitter"></i>
-                                    </div>
-                                </div>
-                                <div class="twitter-info mt-40">
-                                    <h5>
-                                        “The team at <a href="#" class="color-blue5">@iteckagency</a> is incredibly dedicated, knowledgeable, and helpful. The finished product was beautiful, and worth every penny. I would absolutely recommend Iteck WP Theme.”
-                                    </h5>
-                                </div>
-                            </div>
-                            <h4>Defaulting to Mindfulness</h4>
-                            <div class="text color-666 mt-30">
-                                Cray post-ironic plaid, Helvetica keffiyeh tousled Carles banjo before they sold out blog photo booth Marfa semio tics Truffaut. Mustache Schlitz next level blog Williamsburg, deep v typewriter tote bag
-                            </div>
-                            <ul class="ps-1 ps-lg-5 my-4 color-666 fs-14px lh-7">
-                                <li class="d-flex">
-                                    <i class="bi bi-dot me-2 fs-3 lh-2 pt-1"></i>
-                                    Welsh novelist Sarah Waters sums it up eloquently
-                                </li>
-                                <li class="d-flex">
-                                    <i class="bi bi-dot me-2 fs-3 lh-2 pt-1"></i>
-                                    In their classic book, Creativity in Business, based on a popular course they co-taught
-                                </li>
-                                <li class="d-flex">
-                                    <i class="bi bi-dot me-2 fs-3 lh-2 pt-1"></i>
-                                    Novelist and screenwriter Steven Pressfield
-                                </li>
-                            </ul>
-                            <div class="text color-666 mt-30">
-                                That immediately brought to mind one of <a href="#" class="text-decoration-underline color-blue5">my fondest</a> memories, involving my daughter when she was just a toddler of one.
-                            </div>
+                        {{-- blog comment start  --}}
 
-                            <div class="blog-share mt-80">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-6">
-                                        <div class="side-tags">
-                                            <div class="content">
-                                                <a href="#">WordPress</a>
-                                                <a href="#">PHP</a>
-                                                <a href="#">HTML/CSS</a>
-                                                <a href="#">Figma</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="share-icons d-flex justify-content-lg-end mt-3 mt-lg-0">
-                                            <h6 class="fw-bold me-3 flex-shrink-0 text-uppercase">
-                                                Share on
-                                            </h6>
-                                            <a href="#">
-                                                <i class="fab fa-facebook-f"></i>
-                                            </a>
-                                            <a href="#">
-                                                <i class="fab fa-twitter"></i>
-                                            </a>
-                                            <a href="#">
-                                                <i class="fab fa-tumblr"></i>
-                                            </a>
-                                            <a href="#">
-                                                <i class="fas fa-rss"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="blog-comments mt-70">
-                            <div class="comment-card card p-5 radius-5 border-0 mt-50">
-                                <div class="d-flex">
-                                    <div class="icon-60 rounded-circle img-cover overflow-hidden me-3 flex-shrink-0">
-                                        <img src="assets/img/team/3.jpeg" alt="">
-                                    </div>
-                                    <div class="inf">
-                                        <h6 class="fw-bold">Russel B.</h6>
-                                        <small class="color-999"> @russelb  - 15 Dec, 2022 </small>
-                                        <div class="text color-000 fs-12px mt-10">
-                                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum sed ut perspiciatis unde. Lorem ispum dolor sit amet
-                                        </div>
-                                        <div class="social-icons d-flex mt-20">
-                                            <a href="#" class="icon-25 rounded-circle d-inline-flex overflow-hidden align-items-center justify-content-center fs-10px me-2">
-                                                <i class="fab fa-twitter"></i>
-                                            </a>
-                                            <a href="#" class="icon-25 rounded-circle d-inline-flex overflow-hidden align-items-center justify-content-center fs-10px me-2">
-                                                <i class="fab fa-facebook-f"></i>
-                                            </a>
-                                            <a href="#" class="icon-25 rounded-circle d-inline-flex overflow-hidden align-items-center justify-content-center fs-10px me-2">
-                                                <i class="fab fa-instagram"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="comments-content mt-70">
-                                <h3 class="color-000 mb-0"> 02 Comments </h3>
-                                <div class="comment-replay-cont border-bottom border-1 brd-gray pb-40 pt-40">
-                                    <div class="d-flex comment-cont">
-                                        <div class="icon-60 rounded-circle img-cover overflow-hidden me-3 flex-shrink-0">
-                                            <img src="assets/img/team/2.jpeg" alt="">
-                                        </div>
-                                        <div class="inf">
-                                            <div class="title d-flex justify-content-between">
-                                                <h6 class="fw-bold fs-14px">Robert Downey Jr</h6>
-                                                <span class="time fs-12px text-uppercase">
-                                                    3 hours ago
-                                                </span>
-                                            </div>
-                                            <div class="text color-000 fs-12px mt-10">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Atume nusaate staman utra phone limo sumeria
-                                            </div>
-                                            <a href="#" class="butn border border-1 rounded-pill border-blue5 mt-20 py-2 px-3 hover-blue5 color-blue5">
-                                                <span class="fs-10px"> replay </span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex comment-replay ps-5 mt-30 ms-4">
-                                        <div class="icon-40 rounded-circle img-cover overflow-hidden me-3 flex-shrink-0">
-                                            <img src="assets/img/team/5.jpeg" alt="">
-                                        </div>
-                                        <div class="inf">
-                                            <div class="title d-flex justify-content-between">
-                                                <h6 class="fw-bold fs-14px">Tobey McGuire</h6>
-                                                <span class="time fs-12px text-uppercase">
-                                                    2 dayes ago
-                                                </span>
-                                            </div>
-                                            <div class="text color-000 fs-12px mt-10">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Atume nusaate staman utra phone limo sumeria
-                                            </div>
-                                            <a href="#" class="butn border border-1 rounded-pill border-blue5 mt-20 py-2 px-3 hover-blue5 color-blue5">
-                                                <span class="fs-10px"> replay </span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="comment-replay-cont pb-40 pt-40">
-                                    <div class="d-flex comment-cont">
-                                        <div class="icon-60 rounded-circle img-cover overflow-hidden me-3 flex-shrink-0">
-                                            <img src="assets/img/team/4.jpeg" alt="">
-                                        </div>
-                                        <div class="inf">
-                                            <div class="title d-flex justify-content-between">
-                                                <h6 class="fw-bold fs-14px">Ben Chiwell</h6>
-                                                <span class="time fs-12px text-uppercase">
-                                                    December 25, 2022
-                                                </span>
-                                            </div>
-                                            <div class="text color-000 fs-12px mt-10">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Atume nusaate staman utra phone limo sumeria
-                                            </div>
-                                            <a href="#" class="butn border border-1 rounded-pill border-blue5 mt-20 py-2 px-3 hover-blue5 color-blue5">
-                                                <span class="fs-10px"> replay </span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <form class="comment-form d-block pt-30">
-                                <h3 class="color-000 mb-40"> Leave A Comment </h3>
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="form-group mb-30">
-                                            <textarea class="form-control radius-4 fs-12px p-3" rows="6" placeholder="Write your comment here"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="form-group mb-4 mb-lg-0">
-                                            <input type="text" class="form-control fs-12px radius-4 p-3" placeholder="Your Name *">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control fs-12px radius-4 p-3" placeholder="Your Email *">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <div class="form-check mt-20">
-                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                            <label class="form-check-label fs-12px" for="flexCheckDefault">
-                                                Save my name & email in this browser for next time I comment
-                                            </label>
-                                          </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <a href="#" class="btn rounded-pill blue5-3Dbutn hover-blue5 sm-butn fw-bold mt-40">
-                                            <span>Submit Comment </span>
-                                        </a>
-                                    </div>
-                                </div>
+                         @include('partials.blogcomment')
+                        {{-- blog comment end  --}}
 
-                            </form>
-                        </div>
                     </div>
                 </div>
                    {{-- rightbar start  --}}
                    @include('partials.rightbar')
-                
+
                    {{-- rightbar end  --}}
 
             </div>

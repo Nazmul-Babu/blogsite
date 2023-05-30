@@ -11,4 +11,11 @@ class Admin extends Authenticatable
 {
     use HasFactory;
     protected $guarded=[];
+
+
+
+
+    public function createCategory(){
+      return  $this->hasMany(Category::class);
+    }
 }

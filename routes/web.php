@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\AdminController;
-
+use App\Http\Controllers\CategoryController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,4 +22,5 @@ Route::get('adminLogin',[AdminController::class,'AdminLogin']);
 Route::post('adminLogin',[AdminController::class,'Admin'])->name('admin');
 Route::get('createpost',[AdminController::class,'createpost'])->name('createpost');
 Route::get('singlepost',[AdminController::class,'singlepost'])->name('singlepost');
-Route::get('createcategory',[AdminController::class,'createcategory'])->name('createcategory');
+Route::get('createcategory',[CategoryController::class,'showcreatecategory'])->name('showcreatecategory');
+Route::post('createcategory',[CategoryController::class,'createcategory'])->name('createcategory');

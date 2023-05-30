@@ -14,9 +14,7 @@ class AdminController extends Controller
     public function createpost(){
         return view('admin.createpost');
     }
-    public function createcategory(){
-        return view('admin.createcategory');
-    }
+   
     public function singlepost(){
         return view('admin.singlepost');
     }
