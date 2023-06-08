@@ -12,6 +12,9 @@ class Category extends Model
 
 
     public function AdminforCategory(){
-        return  $this->hasOne(Admin::class);
+        return  $this->belongsTo(Admin::class);
       }
+      public function Post_category(){
+        return $this->belongsTo(Category::class);
+    }
 }

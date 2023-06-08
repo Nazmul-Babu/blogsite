@@ -14,6 +14,11 @@
             <h6 class="title mb-20 text-uppercase fw-normal">
                 recent post
             </h6>
+
+
+            @foreach ($recent_post as $recent)
+
+
             <a href="page-single-post-5.html" class="post-card pb-3 mb-3 border-bottom brd-gray">
                 <div class="img me-3">
                     <img src="assets/img/blog/1.jpeg" alt="">
@@ -23,33 +28,10 @@
                     <p> If there’s one way that wireless technology has [...] </p>
                 </div>
             </a>
-            <a href="page-single-post-5.html" class="post-card pb-3 mb-3 border-bottom brd-gray">
-                <div class="img me-3">
-                    <img src="assets/img/blog/2.jpeg" alt="">
-                </div>
-                <div class="inf">
-                    <h6> How To Become Web Developer </h6>
-                    <p> If there’s one way that wireless technology has [...] </p>
-                </div>
-            </a>
-            <a href="page-single-post-5.html" class="post-card pb-3 mb-3 border-bottom brd-gray">
-                <div class="img me-3">
-                    <img src="assets/img/blog/3.jpeg" alt="">
-                </div>
-                <div class="inf">
-                    <h6> Wireframe for UI/UX </h6>
-                    <p> If there’s one way that wireless technology has [...] </p>
-                </div>
-            </a>
-            <a href="page-single-post-5.html" class="post-card">
-                <div class="img me-3">
-                    <img src="assets/img/blog/7.png" alt="">
-                </div>
-                <div class="inf">
-                    <h6> AI With Fingerprint </h6>
-                    <p> If there’s one way that wireless technology has [...] </p>
-                </div>
-            </a>
+            @endforeach
+           
+
+
         </div>
 
         <div class="side-categories mb-50">
@@ -60,34 +42,14 @@
                 <span> all </span>
                 <span> 265 </span>
             </a>
+            @foreach ($category as $cate)
             <a href="#" class="cat-item">
                 <span> News </span>
                 <span> 38 </span>
             </a>
-            <a href="#" class="cat-item">
-                <span> Technology </span>
-                <span> 16 </span>
-            </a>
-            <a href="#" class="cat-item">
-                <span> Tips & Tricks </span>
-                <span> 85 </span>
-            </a>
-            <a href="#" class="cat-item">
-                <span> Career </span>
-                <span> 21 </span>
-            </a>
-            <a href="#" class="cat-item">
-                <span> Community </span>
-                <span> 874 </span>
-            </a>
-            <a href="#" class="cat-item">
-                <span> Videos </span>
-                <span> 54 </span>
-            </a>
-            <a href="#" class="cat-item border-0">
-                <span> Others </span>
-                <span> 85 </span>
-            </a>
+            @endforeach
+
+
         </div>
 
         <div class="side-newsletter mb-50">

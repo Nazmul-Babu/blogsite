@@ -21,66 +21,31 @@
         <div class="blog-details-slider">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
+                    @foreach ($post as $posts )
+
+
                     <div class="swiper-slide">
                         <div class="content-card">
                             <div class="img overlay">
-                                <img src="assets/img/blog/s_blog.png" alt="">
+                                <img src="{{asset('cover_photo/'.$posts->cover_photo)}}" alt="">
                             </div>
                             <div class="info">
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="cont">
-                                            <small class="date small mb-20"> <a href="#" class="text-uppercase border-end brd-gray pe-3 me-3"> News </a> <i class="far fa-clock me-1"></i> Posted on <a href="#">3 Days ago</a> </small>
+                                            <small class="date small mb-20"> <a href="#" class="text-uppercase border-end brd-gray pe-3 me-3"> {{$posts->category->category_name}} </a> <i class="far fa-clock me-1"></i> Posted on <a href="#">{{$posts->created_at->diffForHumans()}}</a> </small>
                                             <h2 class="title">
-                                                <a href="page-single-post-5.html">Solutions For Big Data Issue, Expert Perspective</a>
+                                                <a href="{{route('singlepost')}}">{{ $posts->title}}</a>
                                             </h2>
-                                            <p class="fs-13px mt-10 text-light text-info">If there’s one way that wireless technology has changed the way we work, it’s that will everyone is now connected [...]</p>
+                                            <p class="fs-13px mt-10 text-light text-info">{{$posts->top_heading}}</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="content-card">
-                            <div class="img overlay">
-                                <img src="assets/img/blog/1.jpeg" alt="">
-                            </div>
-                            <div class="info">
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="cont">
-                                            <small class="date small mb-20"> <a href="#" class="text-uppercase border-end brd-gray pe-3 me-3"> News </a> <i class="far fa-clock me-1"></i> Posted on <a href="#">3 Days ago</a> </small>
-                                            <h2 class="title">
-                                                <a href="page-single-post-5.html">Solutions For Big Data Issue, Expert Perspective</a>
-                                            </h2>
-                                            <p class="fs-13px mt-10 text-light text-info">If there’s one way that wireless technology has changed the way we work, it’s that will everyone is now connected [...]</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="content-card">
-                            <div class="img overlay">
-                                <img src="assets/img/blog/2.jpeg" alt="">
-                            </div>
-                            <div class="info">
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="cont">
-                                            <small class="date small mb-20"> <a href="#" class="text-uppercase border-end brd-gray pe-3 me-3"> News </a> <i class="far fa-clock me-1"></i> Posted on <a href="#">3 Days ago</a> </small>
-                                            <h2 class="title">
-                                                <a href="page-single-post-5.html">Solutions For Big Data Issue, Expert Perspective</a>
-                                            </h2>
-                                            <p class="fs-13px mt-10 text-light text-info">If there’s one way that wireless technology has changed the way we work, it’s that will everyone is now connected [...]</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
+                    @endforeach
                 </div>
             </div>
 
@@ -100,6 +65,8 @@
     <div class="container">
         <h5 class="post-sc-title text-center text-uppercase mb-70">Popular Posts</h5>
         <div class="row gx-5">
+            @foreach ($popular_post as $populars)
+
             <div class="col-lg-4 border-end brd-gray">
                 <div class="card border-0 bg-transparent rounded-0 mb-30 mb-lg-0 d-block">
                     <div class="img radius-7 overflow-hidden img-cover">
@@ -136,78 +103,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 border-end brd-gray">
-                <div class="card border-0 bg-transparent rounded-0 mb-30 mb-lg-0 d-block">
-                    <div class="img radius-7 overflow-hidden img-cover">
-                        <img src="assets/img/blog/7.png" class="card-img-top" alt="...">
-                    </div>
-                    <div class="card-body px-0">
-                        <small class="d-block date mt-10 fs-10px fw-bold">
-                            <a href="#" class="text-uppercase border-end brd-gray pe-3 me-3 color-blue4">News</a>
-                            <i class="bi bi-clock me-1"></i>
-                            <a href="#" class="op-8">Posted on 3 Days ago</a>
-                        </small>
-                        <h5 class="fw-bold mt-10 title">
-                            <a href="page-single-post-5.html">AI With Fingerprint</a>
-                        </h5>
-                        <p class="small mt-2 op-8 fs-10px">If there’s one way that wireless technology has
-                            changed the way we work, it’s that will everyone is now connected [...]
-                        </p>
-                        <div class="d-flex small mt-20 align-items-center justify-content-between op-9">
-                            <div class="l_side d-flex align-items-center">
-                                <span class="icon-20 rounded-circle d-inline-flex justify-content-center align-items-center text-uppercase bg-main p-1 me-2 text-white">
-                                    a
-                                </span>
-                                <a href="#" class="mt-1">
-                                    By Admin
-                                </a>
-                            </div>
-                            <div class="r-side mt-1">
-                                <i class="bi bi-chat-left-text me-1"></i>
-                                <a href="#">24</a>
-                                <i class="bi bi-eye ms-4 me-1"></i>
-                                <a href="#">774k</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="card border-0 bg-transparent rounded-0 mb-30 mb-lg-0 d-block">
-                    <div class="img radius-7 overflow-hidden img-cover">
-                        <img src="assets/img/blog/5.png" class="card-img-top" alt="...">
-                    </div>
-                    <div class="card-body px-0">
-                        <small class="d-block date mt-10 fs-10px fw-bold">
-                            <a href="#" class="text-uppercase border-end brd-gray pe-3 me-3 color-blue4">News</a>
-                            <i class="bi bi-clock me-1"></i>
-                            <a href="#" class="op-8">Posted on 3 Days ago</a>
-                        </small>
-                        <h5 class="fw-bold mt-10 title">
-                            <a href="page-single-post-5.html">NFT Game! New Oppoturnity</a>
-                        </h5>
-                        <p class="small mt-2 op-8 fs-10px">If there’s one way that wireless technology has
-                            changed the way we work, it’s that will everyone is now connected [...]
-                        </p>
-                        <div class="d-flex small mt-20 align-items-center justify-content-between op-9">
-                            <div class="l_side d-flex align-items-center">
-                                <span class="icon-20 rounded-circle d-inline-flex justify-content-center align-items-center text-uppercase bg-main p-1 me-2 text-white">
-                                    a
-                                </span>
-                                <a href="#" class="mt-1">
-                                    By Admin
-                                </a>
-                            </div>
-                            <div class="r-side mt-1">
-                                <i class="bi bi-chat-left-text me-1"></i>
-                                <a href="#">24</a>
-                                <i class="bi bi-eye ms-4 me-1"></i>
-                                <a href="#">774k</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            @endforeach
+
+
         </div>
     </div>
 </section>
@@ -218,7 +116,11 @@
 <section class="all-news section-padding blog bg-transparent style-3">
     <div class="container">
         <div class="row gx-4 gx-lg-5">
-            <div class="col-lg-8">
+            <div class="col-lg-7">
+                @foreach ($allpost as $post )
+
+
+
                 <div class="card border-0 bg-transparent rounded-0 border-bottom brd-gray pb-30 mb-30">
                     <div class="row">
                         <div class="col-lg-5">
@@ -256,7 +158,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="card border-0 bg-transparent rounded-0 border-bottom brd-gray pb-30 mb-30">
+                @endforeach
+
+                {{-- <div class="card border-0 bg-transparent rounded-0 border-bottom brd-gray pb-30 mb-30">
                     <div class="row">
                         <div class="col-lg-5">
                             <div class="img img-cover">
@@ -482,30 +386,14 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
                 <div class="pagination style-5 color-4 justify-content-center mt-60">
-                    <a href="#" class="active">
+                     {{-- <a href="#" class="active">
                         <span>1</span>
-                    </a>
-                    <a href="#">
-                        <span>2</span>
-                    </a>
-                    <a href="#">
-                        <span>3</span>
-                    </a>
-                    <a href="#">
-                        <span>4</span>
-                    </a>
-                    <a href="#">
-                        <span>...</span>
-                    </a>
-                    <a href="#">
-                        <span>20</span>
-                    </a>
-                    <a href="#">
-                        <span class="text">next <i class="fas fa-chevron-right"></i> </span>
-                    </a>
+                    </a> --}}
+
+                    {{$allpost->links()}}
                 </div>
             </div>
                     {{-- rightbar start  --}}

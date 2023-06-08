@@ -14,14 +14,19 @@
 
     <!-- Nav Item - Dashboard -->
     <li class="nav-item active">
-        <a class="nav-link" href="{{route('createpost')}}">
+        <a class="nav-link" href="{{route('showcreatepost')}}">
             <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>createpost</span></a>
+            <span>CreatePost</span></a>
     </li>
     <li  class="nav-item active">
         <a class="nav-link" id="submit" href="{{route('showcreatecategory')}}">
             <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>createcategory</span></a>
+            <span>CreateCategory</span></a>
+    </li>
+    <li  class="nav-item active">
+        <a class="nav-link" id="submit" href="{{route('allposts')}}">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>All Posts</span></a>
     </li>
 
 

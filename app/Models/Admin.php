@@ -18,4 +18,8 @@ class Admin extends Authenticatable
     public function createCategory(){
       return  $this->hasMany(Category::class);
     }
+    public function createpost(){
+
+        return $this->hasMany(Post::class);
+    }
 }

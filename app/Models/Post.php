@@ -8,4 +8,12 @@ use Illuminate\Database\Eloquent\Model;
 class Post extends Model
 {
     use HasFactory;
+    protected $guarded=[];
+
+    public function adminforpost(){
+        return $this->belongsTo(Admin::class);
+    }
+    public function category(){
+        return $this->hasOne(Category::class,'id','category_id');
+    }
 }

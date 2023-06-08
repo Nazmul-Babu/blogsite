@@ -13,15 +13,17 @@ return new class extends Migration
     {
         Schema::create('posts', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('admin_id')->nullable();
+            $table->unsignedBigInteger('admin_id');
             $table->foreign('admin_id')->references('id')->on('admins');
+            $table->unsignedBigInteger('category_id');
+            $table->foreign('category_id')->references('id')->on('categories');
             $table->string('title');
             $table->string('cover_photo');
-            $table->string('top_heading');
-            $table->string('top_description');
+            $table->longtext('top_heading');
+            $table->longtext('top_description');
             $table->string('blog_image_one');
             $table->string('blog_image_two');
-            $table->string('last_description');
+            $table->longtext('last_description');
             $table->timestamps();
         });
     }

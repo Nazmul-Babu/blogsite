@@ -11,13 +11,9 @@ class AdminController extends Controller
     public function AdminLogin(){
         return view('admin/adminlogin');
     }
-    public function createpost(){
-        return view('admin.createpost');
-    }
+
+
    
-    public function singlepost(){
-        return view('admin.singlepost');
-    }
 
     public function Admin(){
         $this->validate(request(),[
