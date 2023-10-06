@@ -13,8 +13,11 @@ use Ramsey\Uuid\Type\Integer;
 class PostContoller extends Controller
 {
     public function showcreatepost(){
+        $data =array();
+        $data['active_menu'] = 'post';
+        $data['page_title'] = 'Category';
         $category=Category::all();
-        return view('admin.createpost',compact('category'));
+        return view('backend.pages.createpost',compact(['category','data']));
     }
     public function createpost(){
 
@@ -63,13 +66,18 @@ class PostContoller extends Controller
     }
     public function allposts(){
         $allpost=Post::all();
-        return view('admin.allposts',compact(['allpost']));
+        $data =array();
+        $data['active_menu'] = 'allpost';
+        $data['page_title'] = 'All Post';
+        return view('backend.pages.allposts',compact(['allpost'],'data'));
     }
     public function showpostViewEdit($id){
         $postViewEdit=Post::find($id);
         $category=Category::all();
-
-        return view('admin.postviewedit',compact(['postViewEdit','category']));
+        $data=array();
+        $data['active_menu']='edit_post';
+        $data['page_title']='Edit Post';
+        return view('backend.pages..postviewedit',compact(['postViewEdit','category','data']));
     }
     public function postViewEdit($id){
         $post=Post::find($id);
@@ -123,7 +131,7 @@ if (request()->hasFile('blog_image_two')) {
             $post->blog_image_two = $blog_image_two_name;
             $post->last_description = request('last_description');
             $post->save();
-        return to_route('allposts');
+        return to_route('admin.allposts');
 
     }
     public function deletepost($id){
